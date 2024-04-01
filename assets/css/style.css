@@ -1,0 +1,39 @@
+
+/* Overiding default browser styles*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Generic styling */
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    color: #EEEEEE;
+    background-color: #222831;
+    width: 100%;
+}
+
+/*Header*/
+header {
+    padding: 0.25rem 1rem;
+    color: #76ABAE;
+    position: fixed;
+    z-index: 99;
+    background-color: #31363F;
+    width: 100%;
+}
+/*Main Content*/
+main {
+    flex-grow: 1;
+    flex-basis: auto;
+    margin-top: 45px;
+}
+
+/*Footer*/
+footer {
+    text-align: center;
+    background-color: #31363F;
+}
