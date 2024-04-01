@@ -82,6 +82,18 @@ main {
 footer {
     text-align: center;
     background-color: #31363F;
+    padding: 1rem 0;
+}
+
+#social-links {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+}
+
+#social-links i {
+    color: #76ABAE;
 }
 
 /*Media query: tablets and larger (768px and up)*/
