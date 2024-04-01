@@ -24,7 +24,53 @@ header {
     z-index: 99;
     background-color: #31363F;
     width: 100%;
+    display: flex;
+    justify-content: space-between;
 }
+
+/*Nav Styling*/
+header a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu {
+    font-size: 110%;
+    letter-spacing: 4px;
+    list-style-type: none;
+}
+
+#menu>li {
+    margin-bottom: 1em;
+}
+
+.active {
+    border-bottom: 1px solid #76ABAE;
+}
+
+nav {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    padding: 0 1rem;
+    display: none;
+    top: 100%;
+}
+
+/*Nav toggle*/
+#nav-toggle:checked~nav {
+    display: block;
+
+}
+
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    font-size: 2rem;
+}
+
 /*Main Content*/
 main {
     flex-grow: 1;
@@ -36,4 +82,29 @@ main {
 footer {
     text-align: center;
     background-color: #31363F;
+}
+
+/*Media query: tablets and larger (768px and up)*/
+@media screen and (min-width: 768px) {
+
+    /*Header*/
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+    }
+
+    #menu {
+        display: flex;
+    }
+
+    #menu>li {
+        padding-left: 1rem;
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
 }
