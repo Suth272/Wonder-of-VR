@@ -89,6 +89,7 @@ footer {
     text-align: center;
     background-color: #31363F;
     padding: 1rem 0;
+    height: fit-content;
 }
 
 #social-links {
@@ -100,6 +101,11 @@ footer {
 
 #social-links i {
     color: #76ABAE;
+}
+
+#social-links a:hover i {
+    color: #EEEEEE
+    transform: scale(2)
 }
 
 /*Media query: tablets and larger (768px and up)*/
