@@ -108,12 +108,16 @@ main {
     padding: 10px;
 }
 
-#about-us {
+hr {
+    border: 1px solid #76ABAE;
+}
+
+#about-us, #vr-info {
     text-align: center;
     font-size: 105%;
     line-height: 32px;
     width: 90%;
-    margin: auto;
+    margin: 5% auto;
 }
 
 /*Footer*/
