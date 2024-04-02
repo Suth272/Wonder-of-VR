@@ -16,6 +16,7 @@ body {
     background-color: #222831;
     width: 100%;
     font-family: 'Roboto', sans-serif;
+    font-weight: 400;
 }
 
 h1 {
@@ -84,6 +85,28 @@ main {
     margin-top: 45px;
 }
 
+/*Hero Image*/
+#hero-image {
+    background: url(../images/hero-image.jpg) no-repeat center center/cover;
+    height: 600px;
+    width: 100%;
+    position: relative;
+}
+
+#cover-text {
+    position: absolute;
+    bottom: 5%;
+    right: 0;
+    font-size: 110%;
+    text-transform: uppercase;
+    height: fit-content;
+    width: fit-content;
+    line-height: 2rem;
+    text-align: right;
+    background-color: rgba(118, 171, 174, 0.6);
+    padding: 10px;
+}
+
 /*Footer*/
 footer {
     text-align: center;
@@ -101,6 +124,7 @@ footer {
 
 #social-links i {
     color: #76ABAE;
+    font-size: 150%;
 }
 
 #social-links a:hover i {
@@ -138,5 +162,14 @@ footer {
     /*Main Content*/
     main {
         margin-top: 59px;
+    }
+}
+
+/*Media query: tablets and larger (1024px and up)*/
+@media screen and (min-width: 1024px) {
+    /* Main Content*/
+    /* Hero Image */
+    #cover-text {
+        font-size: 130%;
     }
 }
