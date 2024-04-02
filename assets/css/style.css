@@ -88,6 +88,7 @@ main {
 /*Hero Image*/
 #hero-image {
     background: url(../images/hero-image.jpg) no-repeat center center/cover;
+    /* image taken from Photo by Harsch Shivam from Pexels: https://www.pexels.com/photo/man-wearing-vr-goggles-2007647/ */
     height: 600px;
     width: 100%;
     position: relative;
@@ -167,6 +168,12 @@ footer {
 
 /*Media query: tablets and larger (1024px and up)*/
 @media screen and (min-width: 1024px) {
+    /* Header */
+    /* Nav */
+    #menu a:hover {
+        color: #EEEEEE;
+    }
+    
     /* Main Content*/
     /* Hero Image */
     #cover-text {
