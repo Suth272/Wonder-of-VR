@@ -108,6 +108,14 @@ main {
     padding: 10px;
 }
 
+#about-us {
+    text-align: center;
+    font-size: 105%;
+    line-height: 32px;
+    width: 90%;
+    margin: auto;
+}
+
 /*Footer*/
 footer {
     text-align: center;
