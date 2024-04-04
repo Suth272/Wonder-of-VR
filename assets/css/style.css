@@ -126,6 +126,15 @@ hr {
     text-decoration: none;
 }
 
+.images {
+    border-radius: 5%;
+    margin: 10px 0;
+    max-width: 300px;
+    max-height: 300px;
+    width: auto;
+    height: auto;
+}
+
 /*Footer*/
 footer {
     text-align: center;
@@ -181,6 +190,11 @@ footer {
     /*Main Content*/
     main {
         margin-top: 59px;
+    }
+
+    .images {
+        max-width: 500px;
+        max-height: 500px;
     }
 }
 
