@@ -27,12 +27,59 @@
         <label for="nav-toggle" class="nav-toggle-label"><i class="fa-solid fa-bars"></i></label>
         <nav>
             <ul id="menu">
-                <li><a href="index.html" >Home</a></li>
+                <li><a href="index.html">Home</a></li>
                 <li><a href="signup.html" class="active">Sign Up</a></li>
             </ul>
         </nav>
     </header>
-    <main>main</main>
+    <main>
+        <section id="signup">
+            <form id="signup-form" action="https://formdump.codeinstitute.net/" method="post" target="_blank">
+                <div class="signup-heading">
+                    <h2>Sign up to recieve the Wonder of VR Newsletter</h2>
+                    <h3>Get the latest news on VR tech!</h3>
+                </div>
+                <div>
+                    <label for="fname">First Name:</label>
+                    <input type="text" name="first_name" id="fname" placeholder="Write your first name here" required>
+                </div>
+                <div>
+                    <label for="lname">Last Name:</label>
+                    <input type="text" name="last_name" id="lname" placeholder="Write you last name here" required>
+                </div>
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email" placeholder="Write your email here" required>
+                </div>
+                <div class="signup-heading">
+                    <h3>A little something for our survery</h3>
+                </div>
+                <div>
+                    <p>Are you thinking about getting VR?</p>
+                    <div>
+                    <div>
+                        <label for="yes">Yes</label>
+                        <input type="radio" name="getting-vr" id="yes" value="yes" checked>
+                    </div>
+                    <div>
+                        <label for="maybe">Maybe</label>
+                        <input type="radio" name="getting-vr" id="maybe" value="maybe"> 
+                    </div>
+                    <div>
+                        <label for="no">No</label>
+                        <input type="radio" name="getting-vr" id="no" value="no">
+                    </div>
+                    </div>
+                    <div>
+                        <label for="feedback">Give us some feedback on what you would like to see from us!</label>
+                        <br>
+                        <textarea name="feedback" id="feedback" placeholder="Write your feedback here." cols="30" rows="10"></textarea>
+                    </div>
+                </div>
+                <button type="submit" class="join-button">Join</button>
+            </form>
+        </section>
+    </main>
     <footer>
         <ul id="social-links">
             <li>
