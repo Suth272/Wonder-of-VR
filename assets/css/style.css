@@ -17,6 +17,7 @@ body {
     width: 100%;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
+    font-size: 110%;
 }
 
 h1 {
@@ -115,10 +116,14 @@ hr {
 /* Content */
 #about-us, #vr-info {
     text-align: center;
-    font-size: 105%;
+    font-size: 110%;
     line-height: 32px;
     width: 90%;
     margin: 5% auto;
+}
+
+#vr-info div {
+    margin: 5px auto;
 }
 
 #about-us a {
@@ -128,7 +133,6 @@ hr {
 
 .images {
     border-radius: 5%;
-    margin: 10px 0;
     max-width: 300px;
     max-height: 300px;
     width: auto;
@@ -191,11 +195,6 @@ footer {
     main {
         margin-top: 59px;
     }
-
-    .images {
-        max-width: 500px;
-        max-height: 500px;
-    }
 }
 
 /*Media query: tablets and larger (1024px and up)*/
@@ -210,5 +209,18 @@ footer {
     /* Hero Image */
     #cover-text {
         font-size: 130%;
+    }
+
+    /* Content */
+
+    #uses-styling > div {
+        vertical-align: middle;
+        display: inline-block;
+        max-width: 50%;
+        margin: 10px 20px;
+    }
+
+    .uses-text {
+        text-align: left;
     }
 }
