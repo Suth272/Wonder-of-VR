@@ -122,13 +122,21 @@ hr {
     margin: 5% auto;
 }
 
+#about-us a {
+    color: #76ABAE;
+    text-decoration: none;
+}
+
+#about-us a:hover {
+    color: #EEEEEE;
+}
+
 #vr-info div {
     margin: 5px auto;
 }
 
-#about-us a {
-    color: #76ABAE;
-    text-decoration: none;
+#vr-info #uses-of-vr {
+    margin-top: 20px;
 }
 
 .images {
@@ -213,7 +221,7 @@ footer {
 
     /* Content */
 
-    #uses-styling > div {
+    #uses-styling  div {
         vertical-align: middle;
         display: inline-block;
         max-width: 50%;
