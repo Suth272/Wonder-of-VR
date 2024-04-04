@@ -112,12 +112,18 @@ hr {
     border: 1px solid #76ABAE;
 }
 
+/* Content */
 #about-us, #vr-info {
     text-align: center;
     font-size: 105%;
     line-height: 32px;
     width: 90%;
     margin: 5% auto;
+}
+
+#about-us a {
+    color: #76ABAE;
+    text-decoration: none;
 }
 
 /*Footer*/
