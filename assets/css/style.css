@@ -20,8 +20,9 @@ body {
     font-size: 110%;
 }
 
-h1 {
+h1, h2, h3 {
     font-family: 'Ubuntu', sans-serif;
+    color: #76ABAE;
 }
 
 /*Header*/
@@ -107,6 +108,10 @@ main {
     text-align: right;
     background-color: rgba(118, 171, 174, 0.6);
     padding: 10px;
+}
+
+#cover-text > h2, #cover-text > h3 {
+    color: #EEEEEE;
 }
 
 hr {
