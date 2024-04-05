@@ -166,3 +166,22 @@ The site was deployed to GitHub Pages
 
 4. Wait about 5-10 minutes and then refresh the page. The link to the deployed site will show up as it does in the image below.
 ![image](https://github.com/Suth272/Wonder-of-VR/assets/159195438/4db354be-293d-4af8-bbb7-59424e89d001)
+
+# Credits
+## Content
++ The About Us and What is VR sections have been created by me, due to my experience with the content.
++ The Uses of VR section has been taken from [TechTarget](https://www.techtarget.com/whatis/definition/virtual-reality) from the **How can virtual reality be used?** section
++ The collapsible/dropdown navigation bar was taken from the **Love Running** project by **Code Institute**, but the code was tweaked and editted for my website. The repisitory for the **Love Running** project can be found [here](https://github.com/Code-Institute-Solutions/love-running-v3/tree/main)
+
+## Media
++ Hero Image - [Photo by Harsch Shivam from Pexels](https://www.pexels.com/photo/man-wearing-vr-goggles-2007647/)
++ VR Training Use Image - [Photo by Tima Miroshnichenko from Pexels](https://www.pexels.com/photo/man-playing-virtual-reality-game-6498960/0)
++ VR Education Use Image - [Photo by Julia M Cameron from Pexels](https://www.pexels.com/photo/man-in-yellow-crew-neck-t-shirt-using-vr-headset-4144179/)
++ VR Health Use Image - [Photo by RDNE Stock project from Pexels](https://www.pexels.com/photo/man-helping-a-man-play-with-virtual-reality-headset-8097988/)
++ VR Entertainment Use Image - [Photo by Tima Miroshnichenko from Pexels](https://www.pexels.com/photo/a-man-playing-virtual-reality-glasses-6499165/)
++ Icon for the website - [Favicon](https://favicon.io/favicon-generator/)
++ Icons inside the webpage - [Font Awesome](https://fontawesome.com) & [Google Fonts](https://fonts.google.com/icons)
++ FonTS used in the webpage - [Google Fonts](https://fonts.google.com)
+## Acknowledgments
++ I would like to acknowledge my mentor **[Malia Havlicek](https://github.com/maliahavlicek)** for all the help, tips and advise during this project.
++ I would like to ackknowledge **Code Institute** for the navigation bar and using their [Love Running](https://github.com/Code-Institute-Solutions/love-running-v3/tree/main) project as a code example.
