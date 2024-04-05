@@ -185,6 +185,7 @@ The lighthouse reports also show the core web vitals, which have near perfect sc
 + [Favicon](https://favicon.io/favicon-generator/) - Used to create the icon for the website
 + [Markdown Table Generator](https://www.tablesgenerator.com/markdown_tables) - Used to create the table in the compatibility and responsive testing section
 + [Color Hunt](https://colorhunt.co) - The colour scheme used on the website
++ [Markdown Table of Contents Generator](https://ecotrust-canada.github.io/markdown-toc/)
 
 
 
