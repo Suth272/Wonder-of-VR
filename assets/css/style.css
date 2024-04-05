@@ -152,6 +152,25 @@ hr {
     height: auto;
 }
 
+/* Sign Up Page */
+#signup {
+    background-image: url("../images/signup-image.jpg");
+    background-size: cover;
+    background-position: 75%;
+    padding: 20px 10% 0 10%;
+    flex-grow: 1;
+}
+
+.signup-heading {
+    text-align: center;
+}
+
+#signup-form {
+    color: #EEEEEE;
+    background-color: rgba(60, 60, 60, 0.85);
+    padding: 30px;
+}
+
 /*Footer*/
 footer {
     text-align: center;
