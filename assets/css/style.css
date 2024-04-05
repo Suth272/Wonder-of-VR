@@ -252,6 +252,7 @@ footer {
 
     #menu>li {
         padding-left: 1rem;
+        text-align: center;
     }
 
     .nav-toggle-label {
@@ -261,6 +262,18 @@ footer {
     /*Main Content*/
     main {
         margin-top: 59px;
+    }
+
+    /* Signup Page */
+    #sign-up {
+        background-position: center;
+        position: relative;
+    }
+
+    #signup-form {
+        max-width: 500px;
+        position: relative;
+        left: 10%;
     }
 }
 
@@ -289,5 +302,15 @@ footer {
 
     .uses-text {
         text-align: left;
+    }
+
+    /* Signup Page */
+    .text-input:hover {
+        border-color: #76ABAE;
+    }
+
+    .join:hover {
+        color: #76ABAE;
+        background-color: #31363F;
     }
 }
