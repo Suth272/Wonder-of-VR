@@ -40,44 +40,52 @@
                     <hr>
                     <h3>Get the latest news on VR tech!</h3>
                 </div>
+                <br>
                 <div>
                     <label for="fname">First Name:</label>
-                    <input type="text" name="first_name" id="fname" placeholder="Write your first name here" required>
+                    <input type="text" name="first_name" id="fname" placeholder="Write your first name here" required class="text-input">
                 </div>
                 <div>
                     <label for="lname">Last Name:</label>
-                    <input type="text" name="last_name" id="lname" placeholder="Write you last name here" required>
+                    <input type="text" name="last_name" id="lname" placeholder="Write you last name here" required class="text-input">
                 </div>
                 <div>
                     <label for="email">Email:</label>
-                    <input type="email" name="email" id="email" placeholder="Write your email here" required>
+                    <input type="email" name="email" id="email" placeholder="Write your email here" required class="text-input">
                 </div>
+                <br>
                 <div class="signup-heading">
                     <h3>A little something for our survery</h3>
+                    <hr>
                 </div>
+                <br>
                 <div>
                     <p>Are you thinking about getting VR?</p>
-                    <div>
-                    <div>
-                        <label for="yes">Yes</label>
-                        <input type="radio" name="getting-vr" id="yes" value="yes" checked>
+                    <div id="radio-buttons">
+                        <div>
+                            <input type="radio" name="getting-vr" id="yes" value="yes" checked>
+                            <label for="yes">Yes</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="getting-vr" id="maybe" value="maybe">
+                            <label for="maybe">Maybe</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="getting-vr" id="no" value="no">
+                            <label for="no">No</label>
+                        </div>
                     </div>
-                    <div>
-                        <label for="maybe">Maybe</label>
-                        <input type="radio" name="getting-vr" id="maybe" value="maybe"> 
-                    </div>
-                    <div>
-                        <label for="no">No</label>
-                        <input type="radio" name="getting-vr" id="no" value="no">
-                    </div>
-                    </div>
-                    <div>
+                    <br>
+                    <div id="feedback">
                         <label for="feedback">Give us some feedback on what you would like to see from us!</label>
                         <br>
-                        <textarea name="feedback" id="feedback" placeholder="Write your feedback here." cols="30" rows="10"></textarea>
+                        <textarea name="feedback" id="feedback" placeholder="Write your feedback here." cols="30"
+                            rows="10" class="text-input"></textarea>
                     </div>
                 </div>
-                <button type="submit" class="join-button">Join</button>
+                <div id="join-button">
+                    <button type="submit" class="join">Join</button>
+                </div>  
             </form>
         </section>
     </main>

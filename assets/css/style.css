@@ -47,6 +47,7 @@ header a {
     font-size: 110%;
     letter-spacing: 4px;
     list-style-type: none;
+    background-color: rgba(60, 60, 60, 0.85);
 }
 
 #menu>li {
@@ -116,6 +117,7 @@ main {
 
 hr {
     border: 1px solid #76ABAE;
+    margin: 2px 0;
 }
 
 /* Content */
@@ -157,18 +159,50 @@ hr {
     background-image: url("../images/signup-image.jpg");
     background-size: cover;
     background-position: 75%;
-    padding: 20px 10% 0 10%;
+    padding: 10%;
     flex-grow: 1;
 }
 
 .signup-heading {
     text-align: center;
+    margin-top: 10px;
 }
 
 #signup-form {
     color: #EEEEEE;
     background-color: rgba(60, 60, 60, 0.85);
     padding: 30px;
+}
+
+.text-input {
+    background: transparent;
+    color: #EEEEEE;
+    width: 100%;
+    border: 1px solid #EEEEEE;
+    margin: 5px 0;
+    padding: 5px;
+}
+
+#radio-buttons {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: square;
+}
+
+#feedback {
+    max-width: 100%;
+}
+
+#join-button {
+    text-align: center;
+}
+
+.join {
+    padding: 10px 20px;
+    margin: 10px;
+    color: #EEEEEE;
+    background-color: #76ABAE;
+    font-size: 110%;
 }
 
 /*Footer*/
@@ -213,6 +247,7 @@ footer {
 
     #menu {
         display: flex;
+        background-color: transparent;
     }
 
     #menu>li {
