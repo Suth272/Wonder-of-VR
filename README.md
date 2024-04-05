@@ -13,6 +13,43 @@ You can view the repository [here](https://github.com/Suth272/Wonder-of-VR).
 ## Author
 Sutharshanan Alagarajah
 
+# Table of Contents
+- [Wonder of VR](#wonder-of-vr)
+  * [Live Site](#live-site)
+  * [Repository](#repository)
+  * [Author](#author)
+- [Features](#features)
+    + [Navigation Bar](#navigation-bar)
+    + [Header](#header)
+    + [About Us](#about-us)
+    + [Main content](#main-content)
+    + [Footer](#footer)
+  * [Future Features](#future-features)
+- [Testing](#testing)
+  * [Validation Testing](#validation-testing)
+    + [CSS Validation](#css-validation)
+    + [HTML Validation](#html-validation)
+  * [Compatibility and Responsive Testing](#compatibility-and-responsive-testing)
+  * [Manual Testing](#manual-testing)
+      - [Main Page:](#main-page-)
+      - [Sign up Form:](#sign-up-form-)
+  * [Defect Tracking](#defect-tracking)
+  * [Accessibility Testing](#accessibility-testing)
+    + [Lighthouse Reports](#lighthouse-reports)
+      - [Mobile Home Page Testing](#mobile-home-page-testing)
+      - [Desktop Home Page Testing](#desktop-home-page-testing)
+      - [Mobile Sign Up Page Testing](#mobile-sign-up-page-testing)
+      - [Desktop Sign Up Page Testing](#desktop-sign-up-page-testing)
+- [Technologies Used](#technologies-used)
+  * [Languages](#languages)
+  * [Frameworks, Libraries & Programs Used](#frameworks--libraries---programs-used)
+- [Deployment](#deployment)
+  * [Deploy to GitHub Pages](#deploy-to-github-pages)
+- [Credits](#credits)
+  * [Content](#content)
+  * [Media](#media)
+  * [Acknowledgments](#acknowledgments)
+
 # Features
 ### Navigation Bar
 The navigation bar is fixed at the top of the page, so the use can quickly navigate to the different parts of the webpage. It includes navigation to the differnt sections within the home page, as well as navigation to a seperate webpage to sign up to the newsletter. It also has a highlight/colour change feature when you hover the different navigations.
@@ -137,17 +174,17 @@ The lighthouse reports also show the core web vitals, which have near perfect sc
 + CSS was used to code the styling of the website
 
 ## Frameworks, Libraries & Programs Used
-+ Balsamiq - Was used to create the Wireframes for the website
-+ Gimp - Was used to compress and manipulate the images
-+ Font Awesome - Provided the various icons used in the website
-+ Google Fonts - Provided the fonts and VR icon used in the website
++ [Balsamiq](https://balsamiq.com/wireframes/) - Was used to create the Wireframes for the website
++ [Gimp](https://www.gimp.org) - Was used to compress and manipulate the images
++ [Font Awesome](https://fontawesome.com) - Provided the various icons used in the website
++ [Google Fonts](https://fonts.google.com) - Provided the fonts and VR icon used in the website
 + Chrome Dev Tools - Used extensively to test and debug the website throughout its build.
-+ Gitpod -  Used to create and host the website 
-+ Github - Used to deploy the website
-+ Am I Responsive - Used to create the image of the home page displaying on multiple screens
-+ Favicon - Used to create the icon for the website
-+ Markdown Table Generator - Used to create the table in the compatibility and responsive testing section
-+ Color Hunt - The colour scheme used on the website
++ [Virtual Studio Code](https://code.visualstudio.com) -  Used to create and host the website 
++ [Github](https://github.com) - Used to deploy the website
++ [Am I Responsive](https://ui.dev/amiresponsive) - Used to create the image of the home page displaying on multiple screens
++ [Favicon](https://favicon.io/favicon-generator/) - Used to create the icon for the website
++ [Markdown Table Generator](https://www.tablesgenerator.com/markdown_tables) - Used to create the table in the compatibility and responsive testing section
++ [Color Hunt](https://colorhunt.co) - The colour scheme used on the website
 
 
 
